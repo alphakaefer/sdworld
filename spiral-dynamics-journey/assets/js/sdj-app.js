@@ -153,6 +153,10 @@
 		oerBox.appendChild(list);
 		section.appendChild(oerBox);
 
+		if (level.kh) {
+			section.appendChild(this.renderMethods(level.kh));
+		}
+
 		if (this.locked && index > 0) {
 			var overlay = el('div', 'sdj-lock');
 			var prev = this.data.levels[index - 1];
@@ -162,6 +166,32 @@
 			section.appendChild(overlay);
 		}
 		return section;
+	};
+
+	App.prototype.renderMethods = function (kh) {
+		var meta = this.data.meta;
+		var box = el('aside', 'sdj-methods');
+		box.appendChild(el('h3', 'sdj-oer-heading', meta.methodsHeading));
+		box.appendChild(el('p', 'sdj-methods-intro', meta.methodsIntro));
+		if (kh.article) {
+			var article = el('p', 'sdj-methods-article');
+			article.innerHTML = '→ <a href="' + kh.article.url +
+				'" target="_blank" rel="noopener">' +
+				meta.articleLabel + ': ' + kh.article.label + '</a>';
+			box.appendChild(article);
+		}
+		if (kh.methods && kh.methods.length) {
+			var tags = el('div', 'sdj-method-tags');
+			kh.methods.forEach(function (m) {
+				var a = el('a', 'sdj-method-tag', m.label);
+				a.href = m.url;
+				a.target = '_blank';
+				a.rel = 'noopener';
+				tags.appendChild(a);
+			});
+			box.appendChild(tags);
+		}
+		return box;
 	};
 
 	App.prototype.renderConflict = function (level, index) {

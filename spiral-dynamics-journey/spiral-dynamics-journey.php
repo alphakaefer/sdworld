@@ -3,7 +3,7 @@
  * Plugin Name:       Spiral Dynamics Journey
  * Plugin URI:        https://github.com/alphakaefer/sdworld
  * Description:       Interaktive Scroll-Reise durch die Ebenen von Spiral Dynamics. Erlebe die Konflikte jeder Ebene – und ihre Auflösung erst auf der nächsten. Einbindung per Shortcode [spiral_dynamics_journey].
- * Version:           1.0.0
+ * Version:           1.1.0
  * Requires at least: 5.0
  * Requires PHP:      7.0
  * Author:            sdworld
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'SDJ_VERSION', '1.0.0' );
+define( 'SDJ_VERSION', '1.1.0' );
 define( 'SDJ_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 /**

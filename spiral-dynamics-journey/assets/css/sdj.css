@@ -286,6 +286,58 @@
 	text-decoration: underline;
 }
 
+/* ---------- Methoden & zentrale Konzepte ---------- */
+
+.sdj-methods {
+	background: rgba(255, 255, 255, 0.97);
+	color: #222;
+	border-radius: var(--sdj-radius);
+	padding: 1.1em 1.4em;
+	margin-top: 1em;
+	font-size: 0.95rem;
+	border-left: 5px solid var(--sdj-color, #888);
+}
+
+.sdj-methods-intro {
+	margin: 0 0 0.6em;
+	opacity: 0.8;
+}
+
+.sdj-methods-article {
+	margin: 0 0 0.9em;
+	font-weight: 600;
+}
+
+.sdj-app .sdj-methods a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.sdj-method-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+}
+
+.sdj-app a.sdj-method-tag {
+	display: inline-block;
+	font-size: 0.88rem;
+	font-weight: 600;
+	text-decoration: none;
+	color: #1c1f26;
+	background: rgba(0, 0, 0, 0.06);
+	border: 1px solid var(--sdj-color, #888);
+	border-radius: 999px;
+	padding: 0.3em 0.9em;
+	transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.sdj-app a.sdj-method-tag:hover {
+	background: var(--sdj-color, #888);
+	color: #fff;
+	transform: translateY(-1px);
+}
+
 .sdj-sources a { color: #9ecbff; }
 
 .sdj-license {

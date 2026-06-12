@@ -27,6 +27,10 @@ window.SDJ_DATA = {
 		startLabel: 'Reise beginnen',
 		lockedHint: 'Erlebe zuerst den Übergang auf der vorherigen Ebene.',
 		oerHeading: 'Zum Vertiefen (freie Bildungsressourcen)',
+		methodsHeading: 'Methoden & zentrale Konzepte',
+		methodsIntro: 'Werkzeuge, mit denen sich auf dieser Ebene arbeiten lässt ' +
+			'(vertiefende Artikel von Karl Hosang):',
+		articleLabel: 'Diese Ebene im Detail',
 		conflictHeading: 'Der Konflikt dieser Ebene',
 		conflictQuestion: 'Wie entscheidest du – mit den Mitteln dieser Ebene?',
 		deadEndLabel: 'Sackgasse',
@@ -100,7 +104,17 @@ window.SDJ_DATA = {
 					url: 'https://de.wikipedia.org/wiki/Maslowsche_Bed%C3%BCrfnishierarchie',
 					license: 'CC BY-SA'
 				}
-			]
+			],
+			kh: {
+				article: {
+					label: 'Die beige Ebene',
+					url: 'https://karlhosang.de/spiral-dynamics-beige/'
+				},
+				methods: [
+					{ label: 'Polyvagal-Theorie', url: 'https://karlhosang.de/polyvagal-theorie/' },
+					{ label: 'Ressourcenaktivierung', url: 'https://karlhosang.de/ressourcen-psychologie/' }
+				]
+			}
 		},
 		{
 			id: 'purpur',
@@ -170,7 +184,18 @@ window.SDJ_DATA = {
 					url: 'https://de.wikipedia.org/wiki/Tabu',
 					license: 'CC BY-SA'
 				}
-			]
+			],
+			kh: {
+				article: {
+					label: 'Die purpurne Ebene',
+					url: 'https://karlhosang.de/spiral-dynamics-purpur/'
+				},
+				methods: [
+					{ label: 'Gruppendynamik', url: 'https://karlhosang.de/gruppendynamik/' },
+					{ label: 'Team-Building', url: 'https://karlhosang.de/team-building/' },
+					{ label: 'Storytelling', url: 'https://karlhosang.de/storytelling/' }
+				]
+			}
 		},
 		{
 			id: 'rot',
@@ -238,7 +263,18 @@ window.SDJ_DATA = {
 					url: 'https://de.wikipedia.org/wiki/Blutrache',
 					license: 'CC BY-SA'
 				}
-			]
+			],
+			kh: {
+				article: {
+					label: 'Die rote Ebene',
+					url: 'https://karlhosang.de/spiral-dynamics-rot/'
+				},
+				methods: [
+					{ label: 'Law of Attraction', url: 'https://karlhosang.de/law-of-attraction/' },
+					{ label: 'Ressourcenaktivierung', url: 'https://karlhosang.de/ressourcen-psychologie/' },
+					{ label: 'Visionsfindung', url: 'https://karlhosang.de/inspirierende-fragen-visionsfindung/' }
+				]
+			}
 		},
 		{
 			id: 'blau',
@@ -306,7 +342,17 @@ window.SDJ_DATA = {
 					url: 'https://de.wikipedia.org/wiki/Dogma',
 					license: 'CC BY-SA'
 				}
-			]
+			],
+			kh: {
+				article: {
+					label: 'Die blaue Ebene',
+					url: 'https://karlhosang.de/spiral-dynamics-blau/'
+				},
+				methods: [
+					{ label: 'Konditionierung', url: 'https://karlhosang.de/konditionierung/' },
+					{ label: 'Operatoren (Bloomsche Taxonomie)', url: 'https://karlhosang.de/anforderungsbereiche-lernen-bloomsche-taxonomie/' }
+				]
+			}
 		},
 		{
 			id: 'orange',
@@ -374,7 +420,22 @@ window.SDJ_DATA = {
 					url: 'https://de.wikipedia.org/wiki/Externer_Effekt',
 					license: 'CC BY-SA'
 				}
-			]
+			],
+			kh: {
+				article: {
+					label: 'Die orange Ebene',
+					url: 'https://karlhosang.de/spiral-dynamics-orange/'
+				},
+				methods: [
+					{ label: 'Getting Things Done', url: 'https://karlhosang.de/getting-things-done-gtd-skizze/' },
+					{ label: 'OKRs', url: 'https://karlhosang.de/okrs/' },
+					{ label: '7 Wege zur Effektivität', url: 'https://karlhosang.de/die-7-wege-zur-effektivitaet/' },
+					{ label: 'Innovations-Methoden', url: 'https://karlhosang.de/innovations-methoden/' },
+					{ label: 'Coaching als Business', url: 'https://karlhosang.de/coaching-business/' },
+					{ label: 'Gamification', url: 'https://karlhosang.de/was-ist-gamification/' },
+					{ label: 'Design Thinking', url: 'https://karlhosang.de/design-thinking/' }
+				]
+			}
 		},
 		{
 			id: 'gruen',
@@ -445,13 +506,25 @@ window.SDJ_DATA = {
 					label: 'Wikipedia: Konsensprinzip',
 					url: 'https://de.wikipedia.org/wiki/Konsensprinzip',
 					license: 'CC BY-SA'
-				},
-				{
-					label: 'Karl Hosang: Die grüne Ebene von Spiral Dynamics',
-					url: 'https://karlhosang.de/spiral-dynamics-gruen/',
-					license: 'Artikel'
 				}
-			]
+			],
+			kh: {
+				article: {
+					label: 'Die grüne Ebene',
+					url: 'https://karlhosang.de/spiral-dynamics-gruen/'
+				},
+				methods: [
+					{ label: 'Beziehungskompetenz', url: 'https://karlhosang.de/beziehungskompetenz/' },
+					{ label: 'Achtsamkeit & Meditation', url: 'https://karlhosang.de/achtsamkeit-meditation/' },
+					{ label: 'Sustainable Development Goals', url: 'https://karlhosang.de/sustainable-development-goals/' },
+					{ label: 'Konfliktlösung & Mediation', url: 'https://karlhosang.de/konfliktloesung/' },
+					{ label: 'Trauma-Integration', url: 'https://karlhosang.de/trauma-integration/' },
+					{ label: 'Somatic Experiencing', url: 'https://karlhosang.de/anleitung-somatic-experiencing-in-9-schritten/' },
+					{ label: 'Holokratie', url: 'https://karlhosang.de/holokratie/' },
+					{ label: 'Gewaltfreie Kommunikation (GFK)', url: 'https://karlhosang.de/gewaltfreie-kommunikation-gfk/' },
+					{ label: 'Heldenreise', url: 'https://karlhosang.de/heldenreise-seminar-joseph-campbell/' }
+				]
+			}
 		},
 		{
 			id: 'gelb',
@@ -521,13 +594,23 @@ window.SDJ_DATA = {
 					label: 'Wikipedia: Integrale Theorie (Ken Wilber)',
 					url: 'https://de.wikipedia.org/wiki/Integrale_Theorie',
 					license: 'CC BY-SA'
-				},
-				{
-					label: 'Karl Hosang: Die gelbe Ebene von Spiral Dynamics',
-					url: 'https://karlhosang.de/spiral-dynamics-gelb/',
-					license: 'Artikel'
 				}
-			]
+			],
+			kh: {
+				article: {
+					label: 'Die gelbe Ebene',
+					url: 'https://karlhosang.de/spiral-dynamics-gelb/'
+				},
+				methods: [
+					{ label: 'Komplexe menschliche Systeme', url: 'https://karlhosang.de/komplexe-menschliche-systeme-eigenschaften/' },
+					{ label: 'Organisationsdesign', url: 'https://karlhosang.de/organisationsdesign/' },
+					{ label: 'Visionspyramide', url: 'https://karlhosang.de/visionspyramide/' },
+					{ label: 'Systemische Fragetechniken', url: 'https://karlhosang.de/systemische-fragetechniken/' },
+					{ label: 'Agile Methoden / Mindset', url: 'https://karlhosang.de/agile-mindset/' },
+					{ label: 'Facilitation', url: 'https://karlhosang.de/facilitation-kompetenz/' },
+					{ label: 'Systemisches Design Thinking', url: 'https://karlhosang.de/systemisches-design-thinking/' }
+				]
+			}
 		},
 		{
 			id: 'tuerkis',
@@ -580,7 +663,18 @@ window.SDJ_DATA = {
 					url: 'https://de.wikipedia.org/wiki/Gaia-Hypothese',
 					license: 'CC BY-SA'
 				}
-			]
+			],
+			kh: {
+				article: {
+					label: 'Die türkise Ebene',
+					url: 'https://karlhosang.de/spiral-dynamics-tuerkis/'
+				},
+				methods: [
+					{ label: 'Overview-Effekt', url: 'https://karlhosang.de/overview-effekt/' },
+					{ label: 'Transzendenz', url: 'https://karlhosang.de/transzendenz/' },
+					{ label: 'Reinventing Mindfulness', url: 'https://karlhosang.de/achtsamkeits-methode-erfinden/' }
+				]
+			}
 		}
 	],
 	sources: {

@@ -31,6 +31,7 @@ Features:
 - 🎮 **Klickbare Dilemmata** mit Sackgassen-Feedback und Übergangs-Enthüllung
 - 🔓 **Freischalt-Mechanik**: nächste Ebene erst nach erlebtem Übergang (abschaltbar), Fortschritt im Browser gespeichert
 - 📚 **OER-Links** auf jeder Ebene: frei lizenzierte Bildungsressourcen (Wikipedia/Wikimedia Commons, CC BY-SA) zum Vertiefen
+- 🧰 **Methoden & zentrale Konzepte** je Ebene: passende Werkzeuge und Artikel von [karlhosang.de](https://karlhosang.de/spiral-dynamics/) (z. B. Polyvagal-Theorie, OKRs, GFK, Holokratie, systemische Fragetechniken …)
 - 🪶 Vanilla JS/CSS, **keine Abhängigkeiten, kein Tracking, kein Build-Schritt**
 - ♿ `prefers-reduced-motion` wird respektiert
 
@@ -86,7 +87,7 @@ Die Anwendung verlinkt überwiegend frei lizenzierte Bildungsressourcen, u. a.:
 - [P2P Foundation Wiki: Spiral Dynamics](https://wiki.p2pfoundation.net/Spiral_Dynamics)
 - [Wikimedia Commons: Kategorie „Spiral Dynamics“](https://commons.wikimedia.org/wiki/Category:Spiral_Dynamics) (Grafiken, Lizenz je Datei)
 - je Ebene passende Wikipedia-Artikel (Animismus, Konformität, Postmaterialismus, Systemdenken, Holismus …)
-- vertiefende Artikel von Karl Hosang: [Übersicht](https://karlhosang.de/spiral-dynamics/), [Gelb](https://karlhosang.de/spiral-dynamics-gelb/), [Grün](https://karlhosang.de/spiral-dynamics-gruen/)
+- vertiefende Artikel & Methoden von Karl Hosang – pro Ebene ein eigener Block „Methoden & zentrale Konzepte": [Übersicht](https://karlhosang.de/spiral-dynamics/), [Beige](https://karlhosang.de/spiral-dynamics-beige/), [Purpur](https://karlhosang.de/spiral-dynamics-purpur/), [Rot](https://karlhosang.de/spiral-dynamics-rot/), [Blau](https://karlhosang.de/spiral-dynamics-blau/), [Orange](https://karlhosang.de/spiral-dynamics-orange/), [Grün](https://karlhosang.de/spiral-dynamics-gruen/), [Gelb](https://karlhosang.de/spiral-dynamics-gelb/), [Türkis](https://karlhosang.de/spiral-dynamics-tuerkis/)
 
 **Einordnung:** Spiral Dynamics ist ein heuristisches Modell ohne breite
 wissenschaftliche Anerkennung. Die Anwendung weist im Intro darauf hin und

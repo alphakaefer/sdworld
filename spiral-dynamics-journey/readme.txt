@@ -4,7 +4,7 @@ Tags: spiral dynamics, education, interactive, oer, scrollytelling
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,11 @@ Nein. Alle Inhalte liegen im Plugin. OER-Quellen werden nur verlinkt
 Ja. Code: GPL-2.0-or-later. Texte der Reise: CC BY-SA 4.0.
 
 == Changelog ==
+
+= 1.1.0 =
+* Neu: Block "Methoden & zentrale Konzepte" je Ebene mit Links zu
+  karlhosang.de (Polyvagal-Theorie, OKRs, GFK, Holokratie u. v. m.).
+* Asset-Version erhöht, damit Browser/Caches die neuen Inhalte laden.
 
 = 1.0.0 =
 * Erste Version: 8 Ebenen, interaktive Konflikte, Phasenübergänge, OER-Links.
