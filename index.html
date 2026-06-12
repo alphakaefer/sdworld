@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Die Spirale durchleben – Spiral Dynamics Journey</title>
+	<meta name="description"
+		content="Interaktive Scroll-Reise durch die Ebenen von Spiral Dynamics: Erlebe die Konflikte jeder Ebene und ihre Auflösung erst auf der nächsten.">
+	<link rel="stylesheet" href="spiral-dynamics-journey/assets/css/sdj.css">
+	<style>
+		html, body { margin: 0; padding: 0; }
+		body { background: #1c1f26; }
+		html { scroll-behavior: smooth; }
+		.demo-footer {
+			text-align: center;
+			padding: 2em;
+			color: #888;
+			font-family: sans-serif;
+			font-size: 0.9rem;
+			background: #1c1f26;
+		}
+		.demo-footer a { color: #9ecbff; }
+	</style>
+</head>
+<body>
+	<!-- Gleiches Markup, das der WordPress-Shortcode [spiral_dynamics_journey] erzeugt -->
+	<div class="sdj-app" data-locked="yes" data-progress="yes"></div>
+
+	<footer class="demo-footer">
+		Spiral Dynamics Journey – freie Bildungsanwendung ·
+		<a href="https://github.com/alphakaefer/sdworld">Quellcode auf GitHub</a> ·
+		Texte: CC BY-SA 4.0 · Code: GPL-2.0-or-later
+	</footer>
+
+	<script src="spiral-dynamics-journey/assets/js/sdj-data.js"></script>
+	<script src="spiral-dynamics-journey/assets/js/sdj-app.js"></script>
+</body>
+</html>
