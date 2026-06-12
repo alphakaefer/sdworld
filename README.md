@@ -78,7 +78,7 @@ Ressourcen ergänzen – ohne die App-Logik anzufassen.
 
 ## OER & Quellen
 
-Die Anwendung verlinkt ausschließlich frei lizenzierte Bildungsressourcen, u. a.:
+Die Anwendung verlinkt überwiegend frei lizenzierte Bildungsressourcen, u. a.:
 
 - [Wikipedia (en): Spiral Dynamics](https://en.wikipedia.org/wiki/Spiral_Dynamics) (CC BY-SA)
 - [Wikipedia (de): Spiral Dynamics](https://de.wikipedia.org/wiki/Spiral_Dynamics) (CC BY-SA)
@@ -86,6 +86,7 @@ Die Anwendung verlinkt ausschließlich frei lizenzierte Bildungsressourcen, u. a
 - [P2P Foundation Wiki: Spiral Dynamics](https://wiki.p2pfoundation.net/Spiral_Dynamics)
 - [Wikimedia Commons: Kategorie „Spiral Dynamics“](https://commons.wikimedia.org/wiki/Category:Spiral_Dynamics) (Grafiken, Lizenz je Datei)
 - je Ebene passende Wikipedia-Artikel (Animismus, Konformität, Postmaterialismus, Systemdenken, Holismus …)
+- vertiefende Artikel von Karl Hosang: [Übersicht](https://karlhosang.de/spiral-dynamics/), [Gelb](https://karlhosang.de/spiral-dynamics-gelb/), [Grün](https://karlhosang.de/spiral-dynamics-gruen/)
 
 **Einordnung:** Spiral Dynamics ist ein heuristisches Modell ohne breite
 wissenschaftliche Anerkennung. Die Anwendung weist im Intro darauf hin und

@@ -445,6 +445,11 @@ window.SDJ_DATA = {
 					label: 'Wikipedia: Konsensprinzip',
 					url: 'https://de.wikipedia.org/wiki/Konsensprinzip',
 					license: 'CC BY-SA'
+				},
+				{
+					label: 'Karl Hosang: Die grüne Ebene von Spiral Dynamics',
+					url: 'https://karlhosang.de/spiral-dynamics-gruen/',
+					license: 'Artikel'
 				}
 			]
 		},
@@ -516,6 +521,11 @@ window.SDJ_DATA = {
 					label: 'Wikipedia: Integrale Theorie (Ken Wilber)',
 					url: 'https://de.wikipedia.org/wiki/Integrale_Theorie',
 					license: 'CC BY-SA'
+				},
+				{
+					label: 'Karl Hosang: Die gelbe Ebene von Spiral Dynamics',
+					url: 'https://karlhosang.de/spiral-dynamics-gelb/',
+					license: 'Artikel'
 				}
 			]
 		},
@@ -607,6 +617,11 @@ window.SDJ_DATA = {
 				label: 'Wikimedia Commons: Kategorie „Spiral Dynamics“ (Grafiken & Material)',
 				url: 'https://commons.wikimedia.org/wiki/Category:Spiral_Dynamics',
 				license: 'freie Lizenzen, je Datei'
+			},
+			{
+				label: 'Karl Hosang: Spiral Dynamics meistern (Anleitung, Test & Materialien)',
+				url: 'https://karlhosang.de/spiral-dynamics/',
+				license: 'Artikel'
 			}
 		]
 	}
